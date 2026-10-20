@@ -11,7 +11,6 @@ import {
   Workflow,
 } from "lucide-react";
 
-import { ProjectCard } from "@/components/project-card";
 import { SectionHeading } from "@/components/section-heading";
 import { Button } from "@/components/ui/button";
 import {
@@ -21,14 +20,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
-import {
-  comparisonRows,
-  faqs,
-  featuredProjects,
-  processSteps,
-  services,
-  whyChoose,
-} from "@/lib/site-data";
+import { comparisonRows, faqs, processSteps, services, whyChoose } from "@/lib/site-data";
 
 const homeServiceIcons = [Rocket, BriefcaseBusiness, BarChart3, Layers3, Workflow, Gauge];
 
